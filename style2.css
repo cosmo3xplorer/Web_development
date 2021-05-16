@@ -1,0 +1,74 @@
+.usrimg {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ overflow: hidden;
+ position: absolute;
+ top: calc(-100px/2);
+ left: calc(50% - 50px);
+}
+#ui{
+    background-color: #ff793f;
+    padding: 30px;
+    margin-top: 250px;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+#ui label{
+    color: #fff;
+}
+body{
+    background-color: #706fd3;
+    background-size: cover;
+}
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 20px auto;
+    text-align: center;
+    border: 2px solid #3d3d3d;
+    padding: 14px 10px;
+    outline: none;
+    color: #7158e2;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+select{
+    appearance: none;
+    box-shadow: none;
+    background: #ff793f;
+}
+.box select[name = "stream"]{
+    border: 0;
+    background: #ff793f;
+    display: block;
+    margin-top: 20px auto;
+    object-position: center;
+    border: 2px solid #3d3d3d;
+    color: #7158e2;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "email"]:focus,.box select:focus{
+    width: 240px;
+    border-color: #32ff7e;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 20px auto;
+    text-align: center;
+    border: 2px solid #0097e6;
+    padding: 14px 40px;
+    outline: none;
+    color: #192a56;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: #0097e6;
+}
+
